@@ -1,0 +1,49 @@
+
+
+@import "node_modules/materialize-css/sass/materialize.scss";
+
+body{
+  background: #fafafa;
+  font-family: 'Staatliches', cursive;
+  }
+
+.titulo{
+  font-family: 'Libre Barcode 39 Text', cursive;
+}
+
+#main-container{
+  margin: 30px auto;
+}
+
+.celuko{
+max-width: 90%;
+margin-top: 20%;
+}
+
+.site-footer{
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.login-box,
+.signup-box{
+  background-color: white;
+  border: 1px solid #edeeee;
+  border-radius: 3px;
+  padding: 10px;
+  text-align: center;
+}
+
+.signup-box{
+  font-family: 'Staatliches', cursive;
+  font-size: 42px;
+}
+
+.otros{
+  font-family: 'Staatliches', cursive;
+}
+
+.signup-form{
+  width: 65%;
+  margin: 0 auto;
+}
