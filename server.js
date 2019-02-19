@@ -2,9 +2,13 @@ var express = require('express');
 
 var app = express();
 
-app.get('/', function(req,res){
-  res.send('Hola mundo');
+app.set('view engine', 'pug');
+
+app.get('/', function(req,res) {
+  res.render('index');
 })
+
+
 
 app.listen(3000, function (err){
   if (err) return console.console.log('error'),process.exit(1);
