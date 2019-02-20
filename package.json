@@ -11,12 +11,16 @@
   "dependencies": {
     "express": "^4.16.4",
     "materialize-css": "^1.0.0",
+    "page": "^1.11.4",
     "pug": "^2.0.3"
   },
   "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.0",
     "gulp": "^3.9.1",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.11.0",
+    "vinyl-source-stream": "^2.0.0"
   }
 }
