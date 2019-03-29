@@ -1,11 +1,12 @@
 $secondary-color: #125688;
+$font: 'Staatliches', cursive;
 
 @import "node_modules/materialize-css/sass/materialize.scss";
 
 body{
   background: #fafafa;
   color: #125688;
-  font-family: 'Staatliches', cursive;
+  font-family: $font;
   }
 
 .titulo{

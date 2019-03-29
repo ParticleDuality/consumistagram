@@ -4,15 +4,18 @@
   "description": "el mejor proyecto del mundo ",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp",
+    "start": "node server.js | gulp watch"
   },
   "author": "SAaronS",
   "license": "MIT",
   "dependencies": {
+    "empty-element": "^1.0.0",
     "express": "^4.16.4",
     "materialize-css": "^1.0.0",
     "page": "^1.11.4",
-    "pug": "^2.0.3"
+    "pug": "^2.0.3",
+    "yo-yo": "^1.4.1"
   },
   "devDependencies": {
     "babelify": "^7.3.0",
@@ -21,6 +24,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "node-sass": "^4.11.0",
-    "vinyl-source-stream": "^2.0.0"
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.1"
   }
 }
