@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "empty-element": "^1.0.0",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "materialize-css": "^1.0.0",
     "page": "^1.11.4",
     "pug": "^2.0.3",
